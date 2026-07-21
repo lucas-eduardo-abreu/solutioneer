@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solutioneer — Engenharia de Software & Soluções Digitais</title>
+<meta name="description" content="Solutioneer é uma empresa de tecnologia especializada em desenvolvimento de software sob medida, produtos digitais e soluções em dados & IA.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230B0F1A%22/><text x=%2250%22 y=%2266%22 font-size=%2260%22 text-anchor=%22middle%22 fill=%22%234F7CFF%22 font-family=%22Arial%22 font-weight=%22bold%22>S</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">S</span>
+      <span class="logo-text">Solutioneer</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#servicos">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#processo">Como trabalhamos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#contato" class="btn btn-primary btn-sm">Falar com um especialista</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="grid-lines"></div>
+    </div>
+
+    <div class="container hero-inner">
+      <div class="hero-content reveal">
+        <span class="eyebrow"><span class="dot"></span> Tecnologia sob medida para negócios reais</span>
+        <h1>Transformamos problemas complexos em <span class="text-gradient">software que funciona</span>.</h1>
+        <p class="hero-lead">
+          A Solutioneer une engenharia de software, produtos digitais e dados &amp; IA para
+          resolver o gargalo que está travando o crescimento da sua empresa — do primeiro
+          diagnóstico à solução em produção.
+        </p>
+        <div class="hero-cta">
+          <a href="#contato" class="btn btn-primary btn-lg">Iniciar um projeto</a>
+          <a href="#servicos" class="btn btn-ghost btn-lg">Ver o que fazemos</a>
+        </div>
+
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <strong>Sob medida</strong>
+            <span>nada de soluções genéricas</span>
+          </div>
+          <div class="highlight-item">
+            <strong>Ponta a ponta</strong>
+            <span>da estratégia ao deploy</span>
+          </div>
+          <div class="highlight-item">
+            <strong>Parceria contínua</strong>
+            <span>evoluímos junto com você</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-hidden="true">
+        <div class="code-card">
+          <div class="code-card-header">
+            <span class="dot-red"></span><span class="dot-yellow"></span><span class="dot-green"></span>
+            <span class="code-card-title">solution.ts</span>
+          </div>
+          <pre class="code-card-body"><code><span class="c-kw">const</span> <span class="c-var">problema</span> = <span class="c-str">"processo manual, lento, caro"</span>;
+
+<span class="c-kw">function</span> <span class="c-fn">resolver</span>(<span class="c-var">problema</span>) {
+  <span class="c-kw">return</span> <span class="c-obj">Solutioneer</span>
+    .<span class="c-fn">entender</span>(<span class="c-var">problema</span>)
+    .<span class="c-fn">arquitetar</span>()
+    .<span class="c-fn">construir</span>()
+    .<span class="c-fn">escalar</span>();
+}
+
+<span class="c-comment">// resultado: eficiência, dados, crescimento</span></code></pre>
+        </div>
+        <div class="float-card float-card-1">
+          <span class="float-icon">⚡</span>
+          <div><strong>Entrega contínua</strong><small>CI/CD desde o dia 1</small></div>
+        </div>
+        <div class="float-card float-card-2">
+          <span class="float-icon">🔒</span>
+          <div><strong>Segurança</strong><small>boas práticas em produção</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="servicos">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-alt">O que fazemos</span>
+        <h2>Soluções completas, do código à estratégia</h2>
+        <p>Atuamos em quatro frentes que se complementam — contrate uma ou combine todas em um único parceiro tecnológico.</p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M8 4L2 12L8 20M16 4L22 12L16 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Desenvolvimento Sob Medida</h3>
+          <p>Sistemas, plataformas e integrações construídos para a realidade da sua operação — sem forçar seu processo a caber num software pronto.</p>
+          <ul class="service-list">
+            <li>Sistemas web e back-office</li>
+            <li>APIs e integrações</li>
+            <li>Modernização de legado</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 21H16M12 17V21" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Produtos Digitais</h3>
+          <p>Do zero ao MVP e além: web apps, aplicativos e plataformas pensados para o usuário final, com design e engenharia andando juntos.</p>
+          <ul class="service-list">
+            <li>Web apps e portais</li>
+            <li>Aplicativos mobile</li>
+            <li>Design de produto (UX/UI)</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M12 2V5M12 19V22M4.9 4.9L7 7M17 17L19.1 19.1M2 12H5M19 12H22M4.9 19.1L7 17M17 7L19.1 4.9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Dados &amp; Inteligência Artificial</h3>
+          <p>Transformamos dados dispersos em decisões: pipelines, automações e modelos de IA aplicados a problemas reais de negócio.</p>
+          <ul class="service-list">
+            <li>Automação de processos</li>
+            <li>Dashboards e BI</li>
+            <li>IA aplicada e agentes</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M2 17L12 22L22 17M2 12L12 17L22 12" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Consultoria &amp; Estratégia Técnica</h3>
+          <p>Antes de escrever a primeira linha de código, ajudamos a validar o problema certo, a arquitetura certa e o investimento certo.</p>
+          <ul class="service-list">
+            <li>Diagnóstico técnico</li>
+            <li>Arquitetura de sistemas</li>
+            <li>Roadmap de tecnologia</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-alt">Portfólio</span>
+        <h2>Projetos que já colocamos em produção</h2>
+        <p>Uma amostra do que já construímos para clientes reais.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="portfolio-card reveal">
+          <div class="portfolio-thumb" data-label="01"></div>
+          <div class="portfolio-body">
+            <span class="portfolio-tag">Dados &amp; IA · Sob Medida</span>
+            <h3>equilibr.ai</h3>
+            <p>Sistema completo de gestão para clínica de fonoaudiologia: prontuários, agenda, geração de notas clínicas assistida por IA e integração com WhatsApp.</p>
+            <div class="portfolio-stack">
+              <span>Django</span><span>HTMX</span><span>Celery</span><span>Claude API</span>
+            </div>
+            <span class="portfolio-badge">Projeto privado sob NDA</span>
+          </div>
+        </article>
+
+        <article class="portfolio-card reveal">
+          <div class="portfolio-thumb" data-label="02"></div>
+          <div class="portfolio-body">
+            <span class="portfolio-tag">Automação &amp; Dados</span>
+            <h3>contra.ai</h3>
+            <p>Ferramenta que lê PDFs jurídicos, extrai e valida dados processuais automaticamente (CNJ, CPF, CNPJ) e já gera a peça de contestação pronta para revisão.</p>
+            <div class="portfolio-stack">
+              <span>Python</span><span>pdfplumber</span><span>docxtpl</span>
+            </div>
+            <span class="portfolio-badge">Projeto privado sob NDA</span>
+          </div>
+        </article>
+
+        <article class="portfolio-card reveal">
+          <div class="portfolio-thumb" data-label="03"></div>
+          <div class="portfolio-body">
+            <span class="portfolio-tag">Produtos Digitais</span>
+            <h3>jog.ai</h3>
+            <p>Backoffice para operar jogos interativos em totens de marketing — memória, jogo da velha com IA e roleta de prêmios, tudo configurável por campanha.</p>
+            <div class="portfolio-stack">
+              <span>Django</span><span>Jazzmin</span><span>JavaScript</span>
+            </div>
+            <span class="portfolio-badge">Projeto privado sob NDA</span>
+          </div>
+        </article>
+
+        <article class="portfolio-card reveal">
+          <div class="portfolio-thumb" data-label="04"></div>
+          <div class="portfolio-body">
+            <span class="portfolio-tag">Engenharia &amp; Sob Medida</span>
+            <h3>firmeza-tracker</h3>
+            <p>Rastreador de eventos em tempo real com notificações push no navegador, suíte de testes automatizados e integração contínua a cada commit.</p>
+            <div class="portfolio-stack">
+              <span>Django</span><span>PostgreSQL</span><span>Web Push</span>
+            </div>
+            <a href="https://github.com/lucas-eduardo-abreu/firmeza-tracker" target="_blank" rel="noopener" class="portfolio-link">Ver código →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="processo">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-alt">Como trabalhamos</span>
+        <h2>Um processo simples, sem caixa-preta</h2>
+        <p>Transparência em cada etapa — você sabe exatamente onde seu projeto está e por quê.</p>
+      </div>
+
+      <ol class="process-steps">
+        <li class="process-step reveal">
+          <span class="step-number">01</span>
+          <h3>Diagnóstico</h3>
+          <p>Entendemos o problema de negócio antes de falar de tecnologia. Sem isso, não existe solução boa.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="step-number">02</span>
+          <h3>Arquitetura</h3>
+          <p>Desenhamos a solução técnica certa para o seu contexto — escalável, mas sem complexidade desnecessária.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="step-number">03</span>
+          <h3>Construção</h3>
+          <p>Desenvolvimento iterativo, com entregas frequentes e visibilidade total do progresso.</p>
+        </li>
+        <li class="process-step reveal">
+          <span class="step-number">04</span>
+          <h3>Evolução</h3>
+          <p>O lançamento é o começo. Acompanhamos, medimos e evoluímos a solução com você.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="sobre">
+    <div class="container about-inner">
+      <div class="about-text reveal">
+        <span class="eyebrow eyebrow-alt">Sobre a Solutioneer</span>
+        <h2>Engenharia séria, sem enrolação.</h2>
+        <p>
+          A Solutioneer nasceu para ser o parceiro de tecnologia que empresas gostariam de ter
+          desde o início: um time que entende de negócio tanto quanto entende de código, entrega
+          o que promete e não some depois do "vai ao ar".
+        </p>
+        <p>
+          Trabalhamos como uma extensão do seu time — próximos, diretos e comprometidos com o
+          resultado, não só com o entregável.
+        </p>
+      </div>
+
+      <div class="values-grid reveal">
+        <div class="value-card">
+          <h3>Pragmatismo</h3>
+          <p>A solução mais simples que resolve o problema é sempre a melhor.</p>
+        </div>
+        <div class="value-card">
+          <h3>Transparência</h3>
+          <p>Comunicação direta sobre prazos, riscos e trade-offs — sem surpresas.</p>
+        </div>
+        <div class="value-card">
+          <h3>Qualidade de engenharia</h3>
+          <p>Código testado, documentado e feito para durar, não para "funcionar hoje".</p>
+        </div>
+        <div class="value-card">
+          <h3>Parceria de longo prazo</h3>
+          <p>Nosso sucesso é medido pelo resultado que geramos para o seu negócio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTORS -->
+  <section class="sectors" id="setores">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow eyebrow-alt">Onde ajudamos</span>
+        <h2>Soluções para diferentes momentos do seu negócio</h2>
+      </div>
+
+      <div class="sectors-grid">
+        <div class="sector-card reveal">
+          <h3>Startups &amp; produtos novos</h3>
+          <p>Validação rápida de ideias com um MVP sólido, pronto para evoluir sem retrabalho.</p>
+        </div>
+        <div class="sector-card reveal">
+          <h3>Empresas em crescimento</h3>
+          <p>Automação de processos manuais e sistemas que escalam junto com a operação.</p>
+        </div>
+        <div class="sector-card reveal">
+          <h3>Times com sistemas legados</h3>
+          <p>Modernização gradual, sem parar a operação e sem reescrever tudo do zero.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-banner-inner reveal">
+      <h2>Pronto para tirar sua ideia do papel?</h2>
+      <p>Conte pra gente o desafio que você está enfrentando — a primeira conversa é sem compromisso.</p>
+      <a href="#contato" class="btn btn-primary btn-lg">Agendar uma conversa</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contato">
+    <div class="container contact-inner">
+      <div class="contact-info reveal">
+        <span class="eyebrow eyebrow-alt">Contato</span>
+        <h2>Vamos conversar sobre o seu projeto</h2>
+        <p>Preencha o formulário ou fale diretamente com a gente por um dos canais abaixo.</p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:contato@solutioneer.com.br">contato@solutioneer.com.br</a>
+          </li>
+          <li>
+            <span class="contact-label">Telefone / WhatsApp</span>
+            <a href="tel:+555491246539">+55 54 99124-6539</a>
+          </li>
+          <li>
+            <span class="contact-label">Localização</span>
+            <span>Atendimento remoto — Brasil e exterior</span>
+          </li>
+        </ul>
+
+        <div class="social-links">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="GitHub">gh</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" placeholder="Seu nome" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="voce@empresa.com" required>
+        </div>
+        <div class="form-row">
+          <label for="company">Empresa</label>
+          <input type="text" id="company" name="company" placeholder="Nome da empresa (opcional)">
+        </div>
+        <div class="form-row">
+          <label for="message">Como podemos ajudar?</label>
+          <textarea id="message" name="message" rows="4" placeholder="Conte um pouco sobre o desafio ou projeto..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar mensagem</button>
+        <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#top" class="logo">
+        <span class="logo-mark">S</span>
+        <span class="logo-text">Solutioneer</span>
+      </a>
+      <p>Tecnologia sob medida para resolver problemas reais de negócio.</p>
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#processo">Como trabalhamos</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <a href="mailto:contato@solutioneer.com.br">contato@solutioneer.com.br</a>
+        <a href="tel:+555491246539">+55 54 99124-6539</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> Solutioneer. Todos os direitos reservados.</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
